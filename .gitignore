@@ -1,6 +1,21 @@
+# Python
 __pycache__/
 *.pyc
-.pytest_cache/
 .venv/
+venv/
+.pytest_cache/
+
+# Secrets and local data: never commit
 .env
-data/*.out.json
+*.db
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
